@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio 2</title>
+    <link rel="stylesheet" href="./idex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- nav menu -->
+    
+<div class="container">
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Logo</p>
+
+        </div>
+        <div class="nav-menu" id="myNavmenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#Home" class="nav-link active-link">Home</a>
+                 <div class="circle"></div>
+                    
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                 <div class="circle"></div>
+                    
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link ">projects</a>
+                 <div class="circle"></div>
+                    
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link ">Contact</a>
+                 <div class="circle"></div>
+                    
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- Dark mode -->
+         <div class="mode">
+            <div class="moon-sun" id="toggleswitch">
+                <i class="fa fa-moon" id="moon"></i>
+                <i class="fa fa-sun" id="sun"></i>
+
+
+            </div>
+         </div>
+         <div class="nav-menu-btn">
+            <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            <!-- <i class="uil uil" ></i> -->
+
+         </div>
+    </nav>
+
+    <!-- main menu -->
+
+<main class="wrapper">
+    <section class="featured-box" id="home">
+        <div class="featured-text">
+            <div class="hello">
+                <p>Hello I ,m</p>
+            </div>
+            <div class="featured-name">
+                <span class="typeText"></span>
+            </div>
+            <div class="text-info">
+                <p>my name is Rikshan i,m a <h1>web developers</h1></p>
+            </div>
+            <div class="text-btn">
+                <button class="btn hire-btn">Hire me</button>
+                <button class="btn">download CV <i class="fa-solid fa-file"></i></button>
+            </div>
+            <div class="social_icon">
+                <div class="icon_circle"></div>
+                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+
+            </div>
+        </div>
+
+        <div class="featured-image">
+            <div class="image">
+                <img src="./rikshan.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- about box -->
+     <section class="section" id="about">
+        <div class="top-header">
+            <h1>About me</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <figure class="about-me">
+                        <figcaption>
+                            <img src="./rikshan.png" class="profile" alt=""/>
+                            <h2> web developers</h2>
+                            <p>my name is Rikshan i,m a web developers </p>
+
+                    </figure>
+                    <button class="about-me-btn">Hire me</button>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-box">
+                    <span class="title">HTML</span>
+                    <div class="skill-bar">
+                        <span class="skill-per html">
+                            <span class="tooltip">90%</span>
+                        </span>
+                    </div>
+                </div>
+
+
+
+                <div class="skill-box">
+                    <span class="title">CSS</span>
+                    <div class="skill-bar">
+                        <span class="skill-per css">
+                            <span class="tooltip">80%</span>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="skill-box">
+                    <span class="title">bootstrap</span>
+                    <div class="skill-bar">
+                        <span class="skill-per bootstrap">
+                            <span class="tooltip">70%</span>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="skill-box">
+                    <span class="title">Java script</span>
+                    <div class="skill-bar">
+                        <span class="skill-per  javascript">
+                            <span class="tooltip">50%</span>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="skill-box">
+                    <span class="title">React</span>
+                    <div class="skill-bar">
+                        <span class="skill-per react">
+                            <span class="tooltip">40%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- project box -->
+
+
+     <section class="section" id="projects">
+        <div class="top-header">
+            <h1>projects</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>website 1</h3>
+                <label>Landing website</label>
+            </div>
+
+
+
+            <div class="project-box">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>website 2</h3>
+                <label>creative website</label>
+
+            </div>
+
+
+
+            <div class="project-box">
+                <i class="fa-solid fa-award"></i>
+                <h3>Website 3</h3>
+                <label>intergreted website</label>
+
+            </div>
+        </div>
+     </section>
+     <!-- contact box -->
+
+     <section class="section" id="contact">
+        <div class="top-header">
+            <h1>let's work togethor</h1>
+            <span>do you have a project in your mind, contact me here</span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="cantact-info">
+                    <h2>find me <i class="fa-solid fa-right-from-bracket"></i></h2>
+                    <p><i class="fa-solid fa-envelope"> code creater@outlook .com</i></p>
+                    <p><i class="fa-solid fa-phone">  phone:9677065598</i></p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-control">
+                    <div class="form-input">
+                        <input type="text" class="input-field" placeholder="your name">
+                        <input type="text" class="input-field" placeholder="your E-mail">
+                    </div>
+                    <div class="text-area">
+                        <input type="text" class="input-subject" placeholder="subject">
+                        <textarea placeholder="message"></textarea>
+                    </div>
+
+                    <div class="form-button">
+                        <button class="btn">send<i class="fa-solid fa-message"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+</main>
+<!-- footer -->
+
+
+<footer>
+    <div class="middle-footer">
+        <ul class="footer-menu">
+            <li class="footer_menu_list">
+                <a href="#home">home</a>
+            </li>
+            <li class="footer_menu_list">
+                <a href="#about">about</a>
+            </li>
+
+            <li class="footer_menu_list">
+                <a href="#projects">project</a>
+            </li>
+
+            <li class="footer_menu_list">
+                <a href="#contact">contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer-social-icons">
+
+        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+        <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+        <div class="icon"><i class="fa-brands fa-github"></i></div>
+
+
+    </div>
+
+    <div class="bootom-footer">
+        <p>copyright &copy; <a href="#home" style="text-decoration: none;">codecreater</a>- All rights reserved 2025</p>
+    </div>
+</footer>
+</div>
+
+
+<script>
+
+const body =document.querySelector("body"),
+toggleswitch=document.getElementById("toggleswitch");
+
+toggleswitch.addEventListener("click",()=>{
+    body.classList.toggle("dark");
+});
+
+
+// let a=10;
+// function change(){
+//     if(a==10){
+//         document.body.style.background="black";
+//         a=11;
+//     }else{
+//         document.body.style.background="white";
+//         a=10
+//     }
+
+// }
+
+
+</script>
+</body>
+</html>
